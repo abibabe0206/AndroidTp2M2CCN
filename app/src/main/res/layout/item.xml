@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="78dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textNomitem"
+        android:layout_width="59dp"
+        android:layout_height="33dp"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="@string/nom" />
+
+    <TextView
+        android:id="@+id/textPrenomitem"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textNomitem"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/textNomitem"
+        android:text="@string/prenom" />
+
+    <TextView
+        android:id="@+id/textDdnitem"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNomitem"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="@string/ddn" />
+
+    <TextView
+        android:id="@+id/textVdnitem"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDdnitem"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="@string/vdn" />
+
+    <TextView
+        android:id="@+id/pnitem"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVdnitem"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="@string/pn" />
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/actionMore"
+        android:icon="@drawable/ic_more_vert"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+
+            <item android:id="@+id/addPhoneNumber"
+                android:icon="@drawable/ic_add_icon"
+                android:title="ADD PHONE"
+                app:showAsAction="ifRoom"/>
+
+            <item android:id="@+id/aboutVille"
+                android:icon="@drawable/ic_department"
+                android:title="ABOUT VILLE"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

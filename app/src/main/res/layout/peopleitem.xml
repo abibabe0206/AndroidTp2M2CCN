@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/pplNom"
+        android:layout_width="82dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/nom" />
+
+    <TextView
+        android:id="@+id/pplPrenom"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/pplNom"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/pplNom"
+        android:text="@string/prenom" />
+
+    <TextView
+        android:id="@+id/pplPhono"
+        android:layout_width="184dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/pplNom"
+        android:layout_alignStart="@+id/pplNom"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="9dp"
+        android:text="@string/pn" />
+
+    <TextView
+        android:id="@+id/pplDateBirth"
+        android:layout_width="176dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/pplPhono"
+        android:layout_alignStart="@+id/pplPhono"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ddn" />
+
+    <TextView
+        android:id="@+id/pplVille"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/pplDateBirth"
+        android:layout_alignStart="@+id/pplDateBirth"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/vdn" />
+
+    <TextView
+        android:id="@+id/pplDep"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/pplVille"
+        android:layout_alignStart="@+id/pplVille"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/depDn" />
+</RelativeLayout>

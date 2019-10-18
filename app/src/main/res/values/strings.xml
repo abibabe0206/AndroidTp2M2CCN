@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Add a Person</string>
+    <string name="action_settings">Settings</string>
+    <string name="nom">Nom :</string>
+    <string name="prenom">Prenom :</string>
+    <string name="ddn">Date de Naissance :</string>
+    <string name="vdn"> Ville de Naissance :</string>
+    <string name="depDn"> Dép de Naissance :</string>
+    <string name="pn"> Phone Number :</string>
+    <string name="valdie">Valdie</string>
+
+    /* the string for the spinner*/
+    <string-array name="department_arrays">
+        <item>Ajoutez votre département</item>
+        <item>Rennes</item>
+        <item>Brest</item>
+        <item>Diguliville</item>
+        <item>Paris</item>
+        <item>Nantes</item>
+        <item>Lyon</item>
+    </string-array>
+    <string name="title_activity_second">ActivitySecond</string>
+    <string name="title_activity_recycler_view_tp2">My Android App</string>
+    <string name="nouveau_client">Nouveau Client</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_tp2_room">My Android App</string>
+    <string name="add_person">Add Person</string>
+</resources>
